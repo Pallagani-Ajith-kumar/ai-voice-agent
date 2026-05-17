@@ -70,7 +70,7 @@ export default function Home() {
     try {
 
       const res = await fetch(
-        `http://127.0.0.1:8000/chat?message=${encodeURIComponent(text)}&scenario=${encodeURIComponent(scenario)}`
+        `https://fastapi-one-zeta.vercel.app/chat?message=${encodeURIComponent(text)}&scenario=${encodeURIComponent(scenario)}`
       )
 
       const data = await res.json()
