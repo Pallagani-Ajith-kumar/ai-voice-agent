@@ -286,6 +286,7 @@ export default function Home() {
 
         {/* PURPLE GLOW */}
 
+
         <div className="absolute bottom-[-120px] right-[-120px] w-[350px] h-[350px] bg-purple-500/20 rounded-full blur-3xl animate-pulse"></div>
 
         {/* CENTER GLOW */}
