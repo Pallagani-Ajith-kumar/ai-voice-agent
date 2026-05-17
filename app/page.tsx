@@ -70,7 +70,7 @@ export default function Home() {
     try {
 
       const res = await fetch(
-        `https://fastapi-one-zeta.vercel.app/chat?message=${encodeURIComponent(text)}&scenario=${encodeURIComponent(scenario)}`
+        `https://ai-voice-agent-iu2u.vercel.app/chat?message=${encodeURIComponent(text)}&scenario=${encodeURIComponent(scenario)}`
       )
 
       const data = await res.json()
